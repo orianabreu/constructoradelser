@@ -15,11 +15,11 @@ const theme = {
         caption: '0.8rem',
     },
     palette: {
-        primary: '6A0893',
-        secondary: 'FA5BFA',
-        yellow: 'FEEF72',
-        light: 'F2F2FF',
-        blue: '4474FF',
+        primary: '#6A0893',
+        secondary: '#FA5BFA',
+        yellow: '#FEEF72',
+        light: '#F2F2FF',
+        blue: '#4474FF',
     },
 };
 

@@ -28,8 +28,11 @@ export default function Header(){
                     <nav>
                         <S.NavList>
                             <li><a href='#home'>Home</a></li>
-                            <li><a href='#services'>Servicios</a></li>
-                            <li><a href='#knowus'>Quienes somos</a></li>
+                            <li><a href='#services'>Sobre mí</a></li>
+                            <li><a href='#knowus'>Arquitectura y Feng Shui</a></li>
+                            <li><a href='#knowus'>Astrología</a></li>
+                            <li><a href='#knowus'>Mentorías</a></li>
+                            <li><a href='#knowus'>Escuela Virtual</a></li>
                         </S.NavList>
                     </nav></>
             }

@@ -3,6 +3,7 @@ import {ThemeProvider} from "styled-components";
 import theme from './theme/theme';
 import GlobalStyle from "./theme/global";
 import Header from './components/Header/Header';
+import Home from './sections/Home/Home';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <GlobalStyle />
         <ThemeProvider theme={theme}>
           <Header />
+          <Home />
         </ThemeProvider> 
     </div>  
   );
