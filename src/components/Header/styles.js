@@ -5,7 +5,7 @@ export const Container = styled.header`
   z-index: 100;
   width:100vw;
   padding: ${({theme})=>theme.scale.base}px ${({theme})=>theme.scale.base*2}px;
-  background-color: #0000;
+  background-color: ${({theme}) => theme.palette.primary};
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +30,7 @@ export const NavList = styled.ul`
       cursor: pointer;
       
       &:hover{
-        background-color: ${({theme})=>theme.palette.primary};
+        background-color: ${({theme})=>theme.palette.secondary};
         
         a {
           color: ${({theme})=>theme.palette.light};

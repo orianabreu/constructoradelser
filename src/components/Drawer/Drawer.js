@@ -18,10 +18,19 @@ export default function Drawer(){
                 }}>Home</a></S.Row>
                 <S.Row><a href='#services' onClick={()=> {
                     setIsOpen(false);
-                }}>Servicios</a></S.Row>
+                }}>Sobre mí</a></S.Row>
                 <S.Row><a href='#knowus' onClick={()=> {
                     setIsOpen(false);
-                }}>Quienes somos</a></S.Row>
+                }}>Arquitectura y Feng Shui</a></S.Row>
+                <S.Row><a href='#knowus' onClick={()=> {
+                    setIsOpen(false);
+                }}>Astrología</a></S.Row>
+                <S.Row><a href='#knowus' onClick={()=> {
+                    setIsOpen(false);
+                }}>Mentorías</a></S.Row>
+                <S.Row><a href='#knowus' onClick={()=> {
+                    setIsOpen(false);
+                }}>Escuela Virtual</a></S.Row>
             </S.OptionsContainer>
         </S.IconContainer>
     )

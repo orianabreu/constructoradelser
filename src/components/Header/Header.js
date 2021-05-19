@@ -27,7 +27,6 @@ export default function Header(){
                     </S.LogoContainer>
                     <nav>
                         <S.NavList>
-                            <li><a href='#home'>Home</a></li>
                             <li><a href='#services'>Sobre mí</a></li>
                             <li><a href='#knowus'>Arquitectura y Feng Shui</a></li>
                             <li><a href='#knowus'>Astrología</a></li>
