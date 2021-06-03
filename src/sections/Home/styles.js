@@ -16,7 +16,7 @@ export const HomeImg = styled.img`
     background-size: cover;
     width: 122%;
     height: 122%;
-    opacity: 0.6;
+    opacity: 0.4;
     padding-top: ${({theme})=> theme.scale.base*6.5}px;
 `;
 
